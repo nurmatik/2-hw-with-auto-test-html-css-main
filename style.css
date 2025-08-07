@@ -1,12 +1,13 @@
 * {
     /* Свойства для сброса начальных стилей элементов */
-    padding: 0;
+    /* padding: 0; */
     margin: 0;
     box-sizing: border-box;
 }
 
 body {
     font-family: "Inter", sans-serif;
+    color: #303030;
 }
 
 header {
@@ -35,7 +36,6 @@ header span {
     /* Стили для заголовка в первой секции */
     font-weight: 700;
     font-size: 48px;
-    color: #303030;
     margin-bottom: 20px;
 }
 
@@ -43,7 +43,6 @@ header span {
     /* Стили для текста в первой секции */
     font-weight: 400;
     font-size: 18px;
-    color: #303030;
 }
 
 .main-image {
@@ -54,11 +53,15 @@ header span {
 
 .about-section {
     /* Стили для второй секции */
+    padding-top: 100px;
+
     background-color: #FFFFFF;
 }
 
 select {
     /* Стили для выпадающего списка */
+    border-radius: 5px;
+    padding: 8px 12px;
     width: 150px;
     height: 36px;
 }
@@ -67,7 +70,6 @@ select {
     /* Стили для заголовков во второй секции */
     font-weight: 700;
     font-size: 24px;
-    color: #303030;
     margin-bottom: 25px;
 }
 
@@ -80,7 +82,12 @@ select {
     gap: 0px;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
+    list-style: none;
+
+
+    background-image: url("./assent/images/solar_map-arrow-up-bold.svg");
+    background-repeat: repeat-y;
+    background-position: 0;
 }
 
 .books-list {
@@ -92,14 +99,12 @@ select {
     gap: 0px;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
 }
 
 .label {
     /* Стили для подписей чекбоксов */
     font-weight: 400;
-    font-size: 16px;
-    color: #303030;
+    font-size: 14px;
 }
 
 .text-field {
@@ -107,6 +112,8 @@ select {
     border-radius: 5px;
     width: 330px;
     height: 36px;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .btn {
@@ -118,6 +125,7 @@ select {
     font-weight: 700;
     font-size: 14px;
     color: #fff;
+    padding: 10px 27px 9px 29px;
     margin-bottom: 60px;
 }
 
@@ -138,7 +146,7 @@ table {
 
 th,
 td {
-    padding: 11px 15px;
+    padding: 12px 15px;
 }
 
 footer {
@@ -146,7 +154,7 @@ footer {
     width: 1440px;
     height: 70px;
     background-color: #A3A7FF;
-    padding: 26px 1px;
+    padding: 26px 0;
 }
 
 .footer-link {
@@ -154,4 +162,5 @@ footer {
     font-weight: 400;
     font-size: 14px;
     color: #2965f1;
+    text-decoration: none;
 }
