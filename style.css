@@ -53,7 +53,7 @@ header span {
 
 .about-section {
     /* Стили для второй секции */
-    padding-top: 100px;
+    padding: 100px 0;
 
     background-color: #FFFFFF;
 }
@@ -64,6 +64,7 @@ select {
     padding: 8px 12px;
     width: 150px;
     height: 36px;
+    background-repeat: no-repeat;
 }
 
 .section-title {
@@ -99,12 +100,13 @@ select {
     gap: 0px;
     font-weight: 400;
     font-size: 16px;
+    padding: 0 20px;
 }
 
 .label {
     /* Стили для подписей чекбоксов */
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .text-field {
@@ -126,7 +128,7 @@ select {
     font-size: 14px;
     color: #fff;
     padding: 10px 27px 9px 29px;
-    margin-bottom: 60px;
+   
 }
 
 .line {
@@ -134,13 +136,14 @@ select {
     border: 1px solid rgba(48, 48, 48, 0.3);
     width: 1440px;
     height: 0px;
+     margin: 60px 0;
 }
 
 table {
     /* Стили для таблицы */
     width: 300px;
     height: 196px;
-    margin: 60px 0 100px;
+    margin-bottom: 100px;
     border-collapse: collapse;
 }
 
