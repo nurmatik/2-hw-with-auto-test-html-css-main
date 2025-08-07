@@ -84,7 +84,7 @@ select {
     font-weight: 400;
     font-size: 16px;
     list-style: none;
-
+    padding: 0 20px;
 
     background-image: url("./assent/images/solar_map-arrow-up-bold.svg");
     background-repeat: repeat-y;
@@ -128,7 +128,7 @@ select {
     font-size: 14px;
     color: #fff;
     padding: 10px 27px 9px 29px;
-   
+
 }
 
 .line {
@@ -136,13 +136,15 @@ select {
     border: 1px solid rgba(48, 48, 48, 0.3);
     width: 1440px;
     height: 0px;
-     margin: 60px 0;
+    margin: 60px 0;
 }
 
 table {
     /* Стили для таблицы */
     width: 300px;
     height: 196px;
+    font-weight: 400;
+    font-size: 14px;
     margin-bottom: 100px;
     border-collapse: collapse;
 }
